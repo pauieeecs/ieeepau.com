@@ -5,7 +5,7 @@
   background-color: white;
 }
 .strip-grey {
-  background-color: lighten($background, 5);
+  background-color: $bg-default;
 }
 .strip-diagonal {
   transform: skewY(5deg);

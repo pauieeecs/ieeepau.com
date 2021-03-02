@@ -1,9 +1,9 @@
 .feature {
   height: 100%;
-  border: 1px solid lighten($background, 10);
+  border: 1px solid $divider;
   border-radius: 3px;
   padding: 20px;
-  background-color: lighten($background, 15);
+  background-color: $bg-paper;
   display: flex;
   color: darken(white, 10);
   align-items: center;

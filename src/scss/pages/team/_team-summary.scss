@@ -15,12 +15,13 @@
   .team-meta {
     flex: 1;
     h2 {
+      color: $text;
       margin: 0;
       font-size: 22px;
       font-weight: normal;
     }
     p {
-      color: $black;
+      color: $text-secondary;
       text-transform: uppercase;
       margin: 0;
       font-size: 12px;
@@ -34,7 +35,7 @@
 }
 
 .team-summary-large {
-  background-color: lighten($background, 15);
+  background-color: $bg-paper;
   padding: 30px;
   border-radius: 3px;
   .team-image {

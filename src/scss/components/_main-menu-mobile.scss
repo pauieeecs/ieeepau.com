@@ -1,6 +1,6 @@
 .main-menu-mobile {
   position: fixed;
-  background: $primary;
+  background: darken($primary-darken, 10);
   top: 0;
   left: 0;
   width: 100%;
