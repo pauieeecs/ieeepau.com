@@ -3,14 +3,14 @@ import { Link, graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 
-const Services = props => {
-  const services = props.data.services.edges;
+const Committees = props => {
+  const committees = props.data.committees.edges;
   const { intro } = props.data;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
   return (
     <Layout bodyClass="page-services">
-      <SEO title="Services" />
+      <SEO title="Committees" />
 
       <div className="intro">
         <div className="container">
@@ -29,7 +29,7 @@ const Services = props => {
 
       <div className="container pb-6">
         <div className="row">
-          {services.map(edge => (
+          {committees.map(edge => (
             <div key={edge.node.id} className="col-12 col-md-4 mb-1">
               <div className="card service service-teaser">
                 <div className="card-content">
@@ -48,9 +48,9 @@ const Services = props => {
 };
 
 export const query = graphql`
-  query ServicesQuery {
-    services: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/services\/.*/" } }
+  query CommitteesQuery {
+    committees: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/committees\/.*/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -66,7 +66,7 @@ export const query = graphql`
         }
       }
     }
-    intro: markdownRemark(fileAbsolutePath: {regex: "/(services.md)/"}) {
+    intro: markdownRemark(fileAbsolutePath: {regex: "/(committees.md)/"}) {
       html
       frontmatter {
         title
@@ -79,4 +79,4 @@ export const query = graphql`
   }
 `;
 
-export default Services;
+export default Committees;

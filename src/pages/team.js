@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
-import Call from '../components/Call';
+import Join from '../components/Join';
 
 const Team = props => {
   const team = props.data.team.edges;

@@ -1,7 +1,7 @@
 [
     {
-        "name": "Services",
-        "url": "/services/",
+        "name": "Committees",
+        "url": "/committees/",
         "weight": 2
     },
     {

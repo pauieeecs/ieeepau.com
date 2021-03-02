@@ -1,12 +1,12 @@
 [
     {
         "name": "Github",
-        "link": "https://github.com/JugglerX/hugo-serif-theme",
+        "link": "https://github.com/pauieeecs",
         "image": "/images/social/github.svg"
     },
     {
         "name": "Twitter",
-        "link": "https://twitter.com/zerostaticio",
+        "link": "https://twitter.com/ieeepau",
         "image": "/images/social/twitter.svg"
     }
 ]

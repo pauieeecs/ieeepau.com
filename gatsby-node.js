@@ -22,8 +22,8 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            services: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "content/services\/.*/" } }
+            committees: allMarkdownRemark(
+              filter: { fileAbsolutePath: { regex: "content/committees\/.*/" } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               edges {
@@ -82,8 +82,8 @@ exports.createPages = ({ graphql, actions }) => {
           }
         `,
       ).then(result => {
-        result.data.services.edges.forEach(({ node }) => {
-          const component = path.resolve('src/templates/service.js');
+        result.data.committees.edges.forEach(({ node }) => {
+          const component = path.resolve('src/templates/committee.js');
           createPage({
             path: node.frontmatter.path ? node.frontmatter.path : node.fields.slug,
             component,
