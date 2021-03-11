@@ -7,6 +7,8 @@ jobtitle: "DESIGN COORDINATOR"
 linkedinurl: ""
 promoted: true
 weight: 2
+type: "ik"
+order: 9
 ---
 
 Endüstri Mühendisliği 2. Sınıf

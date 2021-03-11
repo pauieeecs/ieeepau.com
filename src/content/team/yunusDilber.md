@@ -7,6 +7,8 @@ jobtitle: "COMPUTER SOCITY COORDINATOR"
 linkedinurl: ""
 promoted: true
 weight: 2
+type: "ik"
+order: 5
 ---
 
 Bilgisayar Mühendisliği 4.Sınıf

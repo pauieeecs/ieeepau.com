@@ -7,6 +7,8 @@ jobtitle: "FINANCIAL DIRECTOR OF THE BOARD"
 linkedinurl: ""
 promoted: true
 weight: 2
+type: "yk"
+order: 4
 ---
 
 Makine Mühendisliği 4. Sınıf 

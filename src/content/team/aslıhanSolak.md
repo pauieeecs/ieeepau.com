@@ -7,6 +7,8 @@ jobtitle: " WOMEN IN ENGINEERING VICEGERENT "
 linkedinurl: "https://www.linkedin.com/in/fatma-bircan-kut-10a036193"
 promoted: true
 weight: 2
+type: "ik"
+order: 10
 ---
 
 Elektrik Elektronik Mühendisliği 1. Sınıf

@@ -9,6 +9,32 @@ const Team = props => {
   const { intro } = props.data;
   const introImageClasses = `intro-image ${intro.frontmatter.intro_image_absolute && 'intro-image-absolute'} ${intro.frontmatter.intro_image_hide_on_mobile && 'intro-image-hide-mobile'}`;
 
+  const renderTeamIndividuals = type => (
+    <>
+      {team.filter(edge => (edge.node.frontmatter.type === type)).map(({ node }) => (
+        <div key={node.id} className="col-12 col-md-6 mb-2">
+          <div className="team team-summary team-summary-large">
+            {node.frontmatter.image && (
+              <div className="team-image">
+                <img alt={`photo of ${node.frontmatter.title}`} className="img-fluid mb-2" src={node.frontmatter.image} />
+              </div>
+            )}
+            <div className="team-meta">
+              <h2 className="team-name">{node.frontmatter.title}</h2>
+              <p className="team-description">{node.frontmatter.jobtitle}</p>
+              {node.frontmatter.linkedin && (
+                <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
+              )}
+            </div>
+            <div className="team-content">
+              <p>{node.excerpt}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </>
+  );
+
   return (
     <Layout bodyClass="page-teams">
       <SEO title="Team" />
@@ -29,48 +55,13 @@ const Team = props => {
       </div>
 
       <div className="container">
+        <h2 className="team-type-title">- Yönetim Kurulu -</h2>
         <div className="row">
-          {team.filter(edge => (edge.node.frontmatter.promoted)).map(({ node }) => (
-            <div key={node.id} className="col-12 col-md-6 mb-2">
-              <div className="team team-summary team-summary-large">
-                {node.frontmatter.image && (
-                  <div className="team-image">
-                    <img alt={`photo of ${node.frontmatter.title}`} className="img-fluid mb-2" src={node.frontmatter.image} />
-                  </div>
-                )}
-                <div className="team-meta">
-                  <h2 className="team-name">{node.frontmatter.title}</h2>
-                  <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
-                  )}
-                </div>
-                <div className="team-content">
-                  <p>{node.excerpt}</p>
-                </div>
-              </div>
-            </div>
-          ))}
+          {renderTeamIndividuals('yk')}
         </div>
-        <div className="row pt-6 pb-6">
-          {team.filter(edge => (!edge.node.frontmatter.promoted)).map(({ node }) => (
-            <div key={node.id} className="col-12 col-md-6 mb-2">
-              <div className="team team-summary">
-                {node.frontmatter.image && (
-                  <div className="team-image">
-                    <img alt={`photo of ${node.frontmatter.title}`} className="img-fluid mb-2" src={node.frontmatter.image} />
-                  </div>
-                )}
-                <div className="team-meta">
-                  <h2 className="team-name">{node.frontmatter.title}</h2>
-                  <p className="team-description">{node.frontmatter.jobtitle}</p>
-                  {node.frontmatter.linkedin && (
-                    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
+        <h2 className="team-type-title">- İdari Kurul -</h2>
+        <div className="row mb-2">
+          {renderTeamIndividuals('ik')}
         </div>
       </div>
 
@@ -82,7 +73,7 @@ export const query = graphql`
   query TeamQuery {
     team: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/team\/.*/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___order], order: ASC }
     ) {
       edges {
         node {
@@ -97,6 +88,7 @@ export const query = graphql`
             image
             jobtitle
             linkedinurl
+            type
           }
         }
       }

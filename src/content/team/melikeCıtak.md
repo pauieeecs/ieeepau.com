@@ -7,6 +7,8 @@ jobtitle: "GENERAL SECRETARY OF THE BOARD"
 linkedinurl: ""
 promoted: true
 weight: 2
+type: "yk"
+order: 3
 ---
 
 Elektrik Elektronik Mühendisliği 2. Sınıf

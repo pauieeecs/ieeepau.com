@@ -7,6 +7,8 @@ jobtitle: "CHAIRMAN OF THE BOARD"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
 weight: 1
+type: "yk"
+order: 1
 ---
 
 Elektrik Elektronik Mühendisliği 4. Sınıf

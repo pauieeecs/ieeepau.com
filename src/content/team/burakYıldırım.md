@@ -7,6 +7,8 @@ jobtitle: "ROBOTICS AND AUTOMATION COORDINATOR"
 linkedinurl: "https://www.linkedin.com/in/fatma-bircan-kut-10a036193"
 promoted: true
 weight: 2
+type: "ik"
+order: 7
 ---
 
 Elektrik Elektronik Mühendisliği 3. Sınıf
