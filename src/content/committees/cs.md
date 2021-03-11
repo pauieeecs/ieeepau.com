@@ -1,5 +1,5 @@
 ---
-title: "Computer Society"
+title: "CS"
 featured: true
 draft: false
 weight: 4

@@ -5,4 +5,4 @@ draft: false
 weight: 2
 ---
 
-Komitemiz, sosyal medyada paylaşılacak postlardan, etkinlik posterlerinden, branda tasarımlarından, etkinlik eşantiyonlarından, ve yapılacak ter türlü tasarımdan sorumludur.
+Tanıtım Tasarım Komitemiz topluluğumuzun marka değerini temsil etmektedir. Topluluğumuzun tanıtımını en doğru ve etkili şekilde yapar. Sosyal medyada paylaşılacak postlardan, etkinlik posterlerinden, branda tasarımlarından, etkinlik eşantiyonlarından ve yapılacak her türlü tasarımdan sorumludur.
