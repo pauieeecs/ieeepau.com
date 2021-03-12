@@ -5,6 +5,11 @@
         "weight": 2
     },
     {
+        "name": "Etkinliklerimiz",
+        "url": "/events/",
+        "weight": 2
+    },
+    {
         "name": "Ekibimiz",
         "url": "/team/",
         "weight": 3
