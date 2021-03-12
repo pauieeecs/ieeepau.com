@@ -1,6 +1,6 @@
 ---
 title: 'Komitelerimiz'
-intro_image: "/images/illustrations/committees.svg"
+intro_image: "/images/illustrations/triangle2.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
