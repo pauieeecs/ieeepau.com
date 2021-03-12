@@ -6,17 +6,17 @@
         "mobile": "/images/ieee-pau-logo-small-white.png",
         "desktop": "/images/ieee-pau-logo-white.png",
         "desktop_height": "42px",
-        "alt": "Serif - A Gatsby Business Theme"
+        "alt": "IEEE PAU"
     },
     "homepage_meta_tags": {
-        "meta_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
-        "meta_og_title": "Gatsby Serif Theme",
+        "meta_description": "IEEE PAÜ Öğrenci Kolu Pamukkale Üniversitesi’nin Elektrik-Elektronik mühendisliği öğrencilerinin çabalarıyla ve Elektrik-Elektronik mühendisliği öğretim görevlilerinin desteği ile Aralık 2012 tarihinde kâr amacı gütmeyen, dünyanın en büyük mesleki, teknik organizasyonu olan IEEE’nin 1150 öğrenci kolu arasında resmi olarak faaliyete geçmiştir.",
+        "meta_og_title": "IEEE PAU",
         "meta_og_type": "website",
-        "meta_og_url": "https://hugo-gatsby.netlify.app",
-        "meta_og_image": "https://raw.githubusercontent.com/JugglerX/hugo-gatsby-theme/master/images/tn.png",
-        "meta_og_description": "Serif is a modern business theme for Gatsby. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated.",
+        "meta_og_url": "https://ieeepau.com",
+        "meta_og_image": "",
+        "meta_og_description": "IEEE PAÜ Öğrenci Kolu Pamukkale Üniversitesi’nin Elektrik-Elektronik mühendisliği öğrencilerinin çabalarıyla ve Elektrik-Elektronik mühendisliği öğretim görevlilerinin desteği ile Aralık 2012 tarihinde kâr amacı gütmeyen, dünyanın en büyük mesleki, teknik organizasyonu olan IEEE’nin 1150 öğrenci kolu arasında resmi olarak faaliyete geçmiştir.",
         "meta_twitter_card": "summary",
-        "meta_twitter_site": "@zerostaticio",
-        "meta_twitter_creator": "@zerostaticio"
+        "meta_twitter_site": "@ieeepau",
+        "meta_twitter_creator": "@ieeepau"
     }
 }
