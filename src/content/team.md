@@ -1,10 +1,11 @@
 ---
 title: 'Team'
-intro_image: ""
+intro_image: "/images/illustrations/shapes2.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Takımımızla Tanış!
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+
+IEEE PAU 2020-2021 yılı Yönetim ve İdari Kurulumuz ile sizlerle buluşmaya devam ediyoruz.

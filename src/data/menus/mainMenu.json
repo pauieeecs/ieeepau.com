@@ -1,21 +1,21 @@
 [
     {
-        "name": "Committees",
+        "name": "Komitelerimiz",
         "url": "/committees/",
         "weight": 2
     },
     {
-        "name": "Team",
+        "name": "Ekibimiz",
         "url": "/team/",
         "weight": 3
     },
     {
-        "name": "About",
+        "name": "Hakkımızda",
         "url": "/about/",
         "weight": 4
     },
     {
-        "name": "Contact",
+        "name": "İletişim",
         "url": "/contact/",
         "weight": 5
     }

@@ -11,3 +11,5 @@ Kurulduğu hatta içerisinde, üye sayısını küçük bir öğrenci grubundan 
 2019 yılı itibari ile 14 idari kurul üyesi, 5 yönetim kurulu üyesi, 200’ü aşkın aktif üyesi ve her sene düzenlenen onlarca etkinliği ile IEEE PAÜ Öğrenci Kolu kulüp hayatına devam etmektedir.
 
 Kurulduğumuz süreçten bu yana teknik ve sosyal alanda eğitim ve proje bazlı birçok aktivite gerçekleştiren topluluğumuz, kulüp üyelerinin yetkinlikleri çerçevesinde özverili çalışmalarıyla birçok başarıya imza atarak girişimcilik ruhuna profesyonelliği de katmak yolunda emin adımlarla devam etmektedir.
+
+![](/images/illustrations/pau.jpg)

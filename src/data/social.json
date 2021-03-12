@@ -8,5 +8,23 @@
         "name": "Twitter",
         "link": "https://twitter.com/ieeepau",
         "image": "/images/social/twitter.svg"
+    },
+
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/ieeepau/",
+        "image": "/images/social/instagram.svg"
+    },
+
+    {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/ieeepau/",
+        "image": "/images/social/linkedin.svg"
+    },
+
+    {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/channel/UCABPtBPVabtBcgvg86zStKg",
+        "image": "/images/social/youtube.svg"
     }
 ]
