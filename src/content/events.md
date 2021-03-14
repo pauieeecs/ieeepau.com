@@ -7,4 +7,4 @@ intro_image_hide_on_mobile: false
 
 # Etkinliklerimiz
 
-IEEE PAU Öğrenci Kolu, ilgi alanları ve gerçekleştirilen çalışmalara göre bünyesinde birden fazla komiteye barındırmaktadır.
+IEEE PAU Öğrenci Kolu olarak bu sene düzenlemiş olduğumuz etkinliklerimiz ve kutlamış olduğumuz özel gün postlarımıza göz atın!
